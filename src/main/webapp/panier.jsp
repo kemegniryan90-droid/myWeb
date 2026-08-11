@@ -38,6 +38,10 @@
             </table>
 
             <h3>Total : ${panier.total} €</h3>
+            <form action="commande" method="post">
+                 <button type="submit">Passer la commande</button>
+            </form>
+
         </c:otherwise>
     </c:choose>
 </body>
